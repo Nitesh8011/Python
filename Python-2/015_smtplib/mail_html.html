@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Email</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .signature {
+            margin-top: 20px;
+            font-style: italic;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello Nitesh Kumar,</h1>
+        <p>We hope this message finds you well!</p>
+        <p>We're reaching out to share some exciting updates. This email is sent via an automated Python script that generates HTML-formatted emails, making it possible to send beautiful and informative messages like this one directly to you.</p>
+        <p>Feel free to reach out if you have any questions. We're here to help!</p>
+        
+        <p class="signature">Best Regards,<br>Nitesh</p>
+
+        <div class="footer">
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+            <p>To unsubscribe from these emails, click <a href="{{unsubscribe_link}}">here</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
