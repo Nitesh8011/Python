@@ -5,8 +5,8 @@ from art import text2art
 HOST = 'smtp.gmail.com'
 PORT = '587'
 
-FROM_MAIL = 'nitesh11041999@gmail.com'
-TO_MAIL = 'nitesh20311@gmail.com'
+FROM_MAIL = 'from_mail@gmail.com'
+TO_MAIL = 'to_mail@gmail.com'
 PASSWORD = getpass.getpass("Enter password: ")
 
 MESSAGE = """Subject: mail from pyhton script

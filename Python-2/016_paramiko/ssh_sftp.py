@@ -1,9 +1,9 @@
 import paramiko
 
 
-hostname = '13.235.23.207'
-username = 'ubuntu'
-key_filepath = '/home/nitesh/Documents/Documents_personal/ansible/vault/aws-ansible.pem'
+hostname = 'ip_address'
+username = 'username'
+key_filepath = '<ssh-key_path>'
 
 try:
     ssh = paramiko.SSHClient()
